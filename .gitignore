@@ -1,0 +1,38 @@
+# --- Secrets / local env (never commit) ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# --- Cursor / SpecStory tooling ---
+.specstory/
+
+# --- Frontend (Vite + React) ---
+Frontend/node_modules/
+Frontend/dist/
+
+# --- Backend (Spring Boot + Gradle) ---
+Backend/build/
+Backend/.gradle/
+Backend/data/
+Backend/bin/
+Backend/out/
+Backend/HELP.md
+
+# --- Logs ---
+*.log
+logs/
