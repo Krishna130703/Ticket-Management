@@ -18,8 +18,6 @@ desktop.ini
 *.swp
 *.swo
 
-# --- Cursor / SpecStory tooling ---
-.specstory/
 
 # --- Frontend (Vite + React) ---
 Frontend/node_modules/
